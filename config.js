@@ -4,12 +4,12 @@
 //
 window.HOMESTEAD_CONFIG = {
   firebase: {
-    apiKey: REPLACE_ME,
-    authDomain: REPLACE_ME,
-    databaseURL: REPLACE_ME,
-    projectId: REPLACE_ME,
-    storageBucket: REPLACE_ME,
-    messagingSenderId: REPLACE_ME,
-    appId: REPLACE_ME,
+    apiKey: "AIzaSyCYzB4GMWDz0fKi94waK1v7HYUUCAFkFoA",
+    authDomain: "homestead-prod-d9a00.firebaseapp.com",
+    databaseURL: "https://homestead-prod-d9a00-default-rtdb.europe-west1.firebasedatabase.app",
+    projectId: "homestead-prod-d9a00",
+    storageBucket: "homestead-prod-d9a00.firebasestorage.app",
+    messagingSenderId: "632446224683",
+    appId: "1:632446224683:web:7c84227200137b37d9dd6e",
   }
 };
