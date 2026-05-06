@@ -31,5 +31,5 @@ const config = `window.HOMESTEAD_CONFIG = {
 };
 `;
 
-fs.writeFileSync('dist/config.js', config);
-console.log('dist/config.js written from environment variables.');
+fs.writeFileSync('config.js', config);
+console.log('config.js written from environment variables.');
