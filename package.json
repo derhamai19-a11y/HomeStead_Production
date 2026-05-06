@@ -1,0 +1,19 @@
+{
+  "name": "homestead",
+  "version": "1.0.0",
+  "description": "A shared garden that grows when you tend the house.",
+  "private": true,
+  "scripts": {
+    "build": "esbuild src/app.jsx --bundle --format=esm --outfile=dist/app.js --loader:.jsx=jsx --jsx=automatic --minify --target=es2020 --define:process.env.NODE_ENV=\"\\\"production\\\"\" && node -e \"require('fs').copyFileSync('src/styles.css','dist/styles.css')\"",
+    "watch": "esbuild src/app.jsx --bundle --format=esm --outfile=dist/app.js --loader:.jsx=jsx --jsx=automatic --target=es2020 --watch --sourcemap --define:process.env.NODE_ENV=\"\\\"development\\\"\"",
+    "serve": "python3 -m http.server 8080 --directory dist"
+  },
+  "dependencies": {
+    "firebase": "^10.14.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.0"
+  }
+}
