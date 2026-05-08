@@ -3,7 +3,7 @@
 // network-first for everything else (Firebase / fonts).
 // Bump CACHE_VERSION whenever you push new files.
 
-const CACHE_VERSION = 'homestead-v2';
+const CACHE_VERSION = 'homestead-v3';
 const APP_SHELL = [
   './',
   './index.html',
